@@ -1,0 +1,30 @@
+body{
+  font-family:sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.contenido{
+  padding: 20px 30px;
+  border: 2px solid red;
+}
+
+.button{
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: lightgreen;
+
+}
+
+.button:hover{
+  border: 2px solid green;
+}
+.input{}
